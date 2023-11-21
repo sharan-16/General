@@ -56,7 +56,7 @@ source /tools/Xilinx/Vivado/2023.2/settings64.sh
 vivado
 ```
 
-**Note:** But for making any installation changes to the software or any liscnece changes open the access the vivado with root prevelages as follows:
+**Note:** But for making any installation changes to the software or any liscnece changes open/access the vivado with root prevelages as follows:
 ```
 sudo -s
 source /tools/Xilinx/Vivado/2023.2/settings64.sh
@@ -67,5 +67,23 @@ vivado
 
 The license file for the Vivado should be automatically added. If the licence expires for you want to add some other licences, it can be either using the Vivado License manger interface or the Linux terminal.
 
+**Generating a Node Locked Licence**
+
+For adding anew liscence or updating an existing one, you need to first generate a new one from you Xilinx account. Open this [Licencing page](https://www.xilinx.com/member/forms/license-form.html) and login to you account if promted and fill out the details as before and click on Next.
+
+
+----image need to added here ----
+
+* Here check the Vivado ML edition liscnece and click on the **Genrate Node-Locked Licence**
+* select/enter the MAC address of the system where you have installed the sowftware and click on Next.
+* Confirm the detials of the licence and then click on next.
+
+The licence file will be emailed to your NYU email address - or another email used to create the account
+
 **Vivado Licence Manager**
-For making any changes to system 
+
+For making any changes to software make sure to open Vivado with root prevelages as stated above. 
+
+* Navigate to the **Help** section in the toolbar on the top and then click on **Manage Licence**.
+* Now download the Xlinix licence file from the email on to your local machine.
+* 
