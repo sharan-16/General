@@ -11,6 +11,8 @@ and its configurations are added below.
 **Login to your Xilinx account or create one using the NYU email.**
 Open the [Xilinx Vivado Download](https://www.xilinx.com/support/download.html) page. Select the version of choice, depending on any specific needs, we went with the latest one.
 ![](pic1.png)
+![Alt Text](pic1.png){:width="300px" height="200px" style="border: 1px solid #000;"}
+
 
 -- Here we are trying to install Vivado for Linux and this can either be done using an installer and dowloading the tar/zip file and installing them locally. We will be goining with the later. 
 -- Click on the link, fill out the form and download it.
