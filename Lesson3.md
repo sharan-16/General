@@ -35,6 +35,10 @@ sudo ./xsetup
 * On the Select Product to Install screen, choose Vivado ML Enterprise edition as the stabdard edition doesnt support the RFSoCs.
 * On the customization screen, uncheck anything if required, except make sure you have the RFSoC files installed as shown in the pic.
 
+<p align="center">
+<img src="pic31.png" alt="Alt Text" width="700" height="500">
+</p>
+
 * Install Cable Drivers
 ```
 cd /tools/Xilinx/Vivado/2020.2/data/xicom/cable_drivers/lin64/install_script/install_drivers
@@ -47,8 +51,17 @@ sudo ./install_drivers
 
 ## Opening the Vivado 
 Once the software isinstalled it can be accessed with normal user prevelages as follows:
+```
+source /tools/Xilinx/Vivado/2023.2/settings64.sh
+vivado
+```
 
-**Note:** Once the
+**Note:** But for making any installation changes to the software or any liscnece changes open the access the vivado with root prevelages as follows:
+```
+sudo -s
+source /tools/Xilinx/Vivado/2023.2/settings64.sh
+vivado
+```
   
 ## License generation and updating
 
